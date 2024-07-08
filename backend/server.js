@@ -15,10 +15,6 @@ const port = process.env.PORT || 5000
 app.use(express.json());
 
 // chats route
-app.get('/',(req,res)=> {
-    console.log(chats);
-    res.send('api is running ')
-})
 
 app.use('/api/user',userRoutes)
 app.use('/api/chat',chatRoutes)
@@ -33,7 +29,6 @@ if(process.env.NODE_ENV = 'production'){
   })
 } else {
     app.get('/',(req,res)=> {
-        console.log(chats);
         res.send('api is running ')
     })
 }
