@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend",
-    "postinstall": "cd frontend && npm install",
-    "build-frontend": "cd frontend && ./node_modules/.bin/vite build"
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
