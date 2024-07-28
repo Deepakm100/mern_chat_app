@@ -11,13 +11,13 @@ This project is a real-time chat application built using the MERN stack (MongoDB
 - **Responsive UI:** A user-friendly interface that works across different devices.
 
 ## Screenshots
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/Screenshot (374).png)
 *Login Page*
 
-![Chat Interface](screenshots/chat_interface.png)
+![Chat Interface](screenshots/Screenshot%20(375).png)
 *Chat Interface*
 
-![Group Chat](screenshots/group_chat.png)
+![Group Chat](screenshots/Screenshot%20(377).png)
 *Group Chat*
 
 ## Technologies Used
