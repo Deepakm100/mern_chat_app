@@ -24,8 +24,6 @@ app.use('/api/message',messageRoutes)
 const _dirname1 = path.resolve()
 if(process.env.NODE_ENV = 'production'){
   app.use(express.static(path.join(_dirname1,'/frontend/dist')))
-  console.log('apka path 1',path.join(_dirname1,'/frontend/dist'))
-  console.log('apka path 2',path.resolve(_dirname1,'frontend','dist','index.html'))
   app.get('*',(req,res)=>{
     res.sendFile(path.resolve(_dirname1,'frontend','dist','index.html'))
   })
